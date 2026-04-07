@@ -1,0 +1,33 @@
+#%%
+#check if the number is positive
+num=int(input("enter the number"))
+if num>0:
+    print("the no is positive")
+#%%
+ # check if a charachter is vowel
+ch=(input("enter the charachter"))
+if (ch=="a","e","i","o","u"):
+     print("the charachter is vowel")
+#%%
+#check a number is divisible by 5
+num=int(input("enter the number"))
+if num%5==0:
+    print("the no is divisible by 5")
+#%%
+#check if a number is even or odd
+num=int(input("enter the number"))
+if num%2==0:
+    print("the no is even")
+else:
+    print("the no is odd")
+
+
+#%%
+#find largest of 2 nos
+a=int(input("enter the number a: "))
+b=int(input("enter the number b: "))
+if a>b:
+    print("a is greater than b")
+else:
+    print("b is greater than a")
+#%%
